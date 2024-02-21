@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background: #352728;
+}
+
+main.topo{
+    background-image: linear-gradient(#352728, #8E5D52 40%);
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 70px auto; 
+}
+
+.flex {
+    display: flex;
+}
+
+header .btn-contact button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0; 
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+main .btn-contact button {
+    padding: 10px 120px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    border: 0;
+    border-radius: 30px;
+    background-color: #35272870;
+    color: #fff;
+}
+
+main .btn-contact button:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.37);
+    transform: scale(1.05);
+}
+
+header .btn-contact button:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 180px;
+    height: 125px;
+}
+
+header a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.10);
+}
+
+header nav{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+section.topo-do-site{
+    padding: 40px 40%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.descricao,
+.meu-nome{
+    color: #fff;
+    font-size: 24.5px;
+    line-height: 45px;
+    font-family: "Quando", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.meu-nome{
+    font-size: 45px;
+}
+
+.topo-do-site .img-topo-site img{ 
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.sobre-mim {
+    padding-top: 25px;
+    background-color: rgb(75, 55, 56);
+    height: 650px;
+}
+
+div .sobre {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 90px;
+}
+
+.sobre h2{
+    font-size: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 800;
+    font-style: bold;
+    text-align: center;
+    padding: 0 0 30px ;
+}
+
+#projetos {
+    background-color: #352728;
+}
+
+.project {
+    color: #fff;
+    font-size: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.projetos {
+    padding-top: 93px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #493737;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #a16c60;
+}
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 93px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.projetos a {
+    display: inline;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 310px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.pro div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #C4C4C4;
+}
+
+.pro:hover {
+    letter-spacing: 5px;
+}
+
+.pro div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+#habilidades {
+    padding-top: 25px;
+    background-color: rgb(75, 55, 56);
+    height: 650px;
+}
+
+div .ability {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 90px;
+}
+
+.ability h2{
+    font-size: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 800;
+    font-style: bold;
+    text-align: center;
+    padding: 0 0 30px ;
+}
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+#fala-comigo{
+    color: #fff;
+    font-size: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 800;
+    font-style: bold;
+    text-align: center;
+    padding: 0 0 30px ;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    background-color: #ffffff;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #000000;
+}
+
+form textarea::placeholder {
+    color: #000000;
+}
+
+form textarea{
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: #352728;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #ffffff;
+    transform: scale(1.05);
+}
